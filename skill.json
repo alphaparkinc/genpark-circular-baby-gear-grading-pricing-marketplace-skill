@@ -1,0 +1,41 @@
+{
+  "name": "genpark-circular-baby-gear-grading-pricing-marketplace-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Circular marketplace and REV\u2122 proprietary pricing algorithm for certified pre-owned baby gear with safety recall verification.",
+  "author": "genpark",
+  "category": "recommerce",
+  "tags": [
+    "baby-gear-resale",
+    "circular-economy",
+    "rev-pricing-algorithm",
+    "safety-recall-check",
+    "rebelstork"
+  ],
+  "inputs": {
+    "gear_model": {
+      "type": "string"
+    },
+    "original_retail_cad": {
+      "type": "number"
+    },
+    "condition": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "item_valuation_id": {
+      "type": "string"
+    },
+    "algorithmic_condition_grade": {
+      "type": "string"
+    },
+    "rev_algorithm_resale_cad": {
+      "type": "number"
+    },
+    "safety_recall_registry_cleared": {
+      "type": "boolean"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
